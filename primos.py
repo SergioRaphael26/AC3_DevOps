@@ -19,6 +19,7 @@ def nao_entre_em_panico():
             primos.append(num)
         num += 1
     print(primos)
+    return primos
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
