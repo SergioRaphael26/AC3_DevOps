@@ -7,7 +7,7 @@ app = Flask(__name__)
 def nao_entre_em_panico():
     
     primos = []
-    numero = 0
+    num = 0
 
     while len(primos) != 101:
         total = 0
